@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+  }
+
+/********HEADER*********/
+header {
+    background-image: url('../img/bkgrd2.jpg');
+    opacity: 1.0;
+    padding-bottom: 100px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 2px;
+    height: 90vh;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 0%;
+    padding: 20px 30px;
+}
+.navs ul {
+    padding: 20px 80px;
+    display: flex;
+    gap: 40px;
+}
+
+.navs li {
+    list-style-type: none;
+    display: block;
+}
+
+.navs a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+a.selected {
+    color: darkblue;
+}
+
+a:hover {
+    color: brown;
+}
+
+.text {
+    text-align: center;
+    font-size: 23px;
+    color: whitesmoke;
+    font-weight: 200;
+}
+
+.line_top {
+    -webkit-text-size-adjust: 100%;
+    font-family: Lato, -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 2;
+    box-sizing: content-box;
+    overflow: visible;
+    width: 50%;
+    color: white;
+    background-color: white;
+    height: 4px;
+    border: none;
+}
+
+ /********BODY*********/
+body {
+    font-size: 100%;
+    background-color: black;
+ }
+
+ .main-content{
+    display: -webkit-flex;
+    display: flex;
+    background-color: lavender;
+    color: black;
+    padding: 2px 50px;
+    margin:2px;
+    font-size: 1rem;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-style: normal;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 1.5;
+    gap: 40px;
+    border: 2px solid white;
+}
+
+.content {
+    width: 60%;
+    /*border: 2px solid black;*/
+}
+
+::marker {
+    color:darkblue;
+}
+
+.material-display {
+    display: inline-block;
+    padding-top: 50px;
+    width: 40%;
+    /*border: 2px solid black;*/
+}
+
+.img-style {
+    display: -webkit-flex;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.img-style img {
+    border-radius: 30px;
+}
+
+.img-style > a, figcaption {
+    color: darkblue;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+h2 {
+    color:darkblue;
+    font-size: 150%;
+}
+
+h3 {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/********SUB-FOOTER*********/
+.sub-foot {
+    display: flex;
+    background-color: gray;
+    color: whitesmoke;
+    margin: 2px;
+    gap: 200px;
+    padding: 50px;
+}
+
+.user-form {
+    padding: 1px;
+    width: 30%;
+    background-color: gray;
+}
+
+/*
+.partnerships {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+*/
+
+.sub-foot textarea {
+    resize: none;
+    height: 100px;
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/********FOOTER*********/
+.container {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    background-color: darkblue;
+    margin: 2px;
+    height: 100%;
+    color: whitesmoke;
+    /* border: 2px solid green; */
+}
+
+.footer-text {
+    width: auto;
+    height: auto;
+    /* border: 2px solid blue; */
+    text-align: center;
+    padding-left: 28%;
+    padding-right: 28%;
+    padding-bottom: 15px;
+    line-height: 1.5;
+}
+
+.soc-ther {
+    width:auto;
+    height:auto;
+    /* border: 2px solid purple; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding-right: auto;
+}
+.social {
+    width: 33%;
+    height: 30%;
+    padding-left: 30px;
+    /* border: 2px black; */
+}
+.Hours {
+    width: auto;
+    text-align: center;
+    padding-right: 16%;
+    padding-bottom: 30px;
+    color: whitesmoke;
+    font-size: 0.9rem;
+}
+
+.other {
+    display: -webkit-flex;
+    display: flex;
+    width: auto;
+    height: 30%;
+    padding-top: 20px;
+    padding-right: 50px;
+    gap: 20px;
+    /* border: 2px solid yellow; */
+}
+
+.other a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 0.9rem;
+}
+
+.copyright {
+    width: auto;
+    height: 20%;
+    font-size: 15px;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.btt {
+    display: -webkit-flex;
+    display: flex;
+    float: right;
+    color: whitesmoke;
+    text-decoration: none;
+    padding-right: 50px;
+    scroll-padding-bottom: 50px;
+}
+
+address {
+    float: left;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    text-align: justify,center;
+    text-decoration: none;
+}
+
+
+/********CONTACT*********/
